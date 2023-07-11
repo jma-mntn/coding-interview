@@ -11,7 +11,7 @@ Request body: { "word": "racecar" }
 Sample Response:
 {
     "is_palindrome": false,
-    "word": "23444"
+    "word": "racecar"
 }
 """
 
