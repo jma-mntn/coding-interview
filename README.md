@@ -17,6 +17,27 @@ Have following tools installed:
 3. Create a python virtual environment
 4. Install python dependencies from requirements.txt
 
+
+## Accessing CloudBeaver
+
+1. http://localhost:9000
+2. Click next one welcome screen
+3. Add a password - password
+4. Click next
+5. Click Finish
+6. Log in with 
+    username: cbadmin 
+    password: password
+7. Add new connection manager 
+8. Select postgresql driver
+9. Configure driver values
+    host: host.docker.internal
+    database: payroll
+    username: postgres
+    password: password
+10. Click Save credentials
+11. Click Create
+
 ## Challenge
 
 1. Run test using pytest
