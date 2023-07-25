@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 def is_palindrome(word):
     """Checks if a word is a palindrome."""
-    word = word.lower().replace(" ", "")  # Convert to lowercase and remove spaces
+    word = word.replace(" ", "")  # Convert to lowercase and remove spaces
     return word == word[::-1]  # Compare the word with its reverse
 
 @app.route('/', methods=['GET'])
