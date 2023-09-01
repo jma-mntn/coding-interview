@@ -2,16 +2,16 @@
 version: "3.9"
 
 services:
-  cloudbeaver:
-    build: ./services/cloudbeaver
-    depends_on:
-      - payroll_db
-    ports:
-      - "9000:8978"
-  payroll_db:
-    build: ./services/db/payroll
-    ports:
-      - "5432:5432"
+  # cloudbeaver:
+  #   build: ./services/cloudbeaver
+  #   depends_on:
+  #     - payroll_db
+  #   ports:
+  #     - "9090:8978"
+  # payroll_db:
+  #   build: ./services/db/payroll
+  #   ports:
+  #     - "5432:5432"
   app:
     build: .
     ports:
